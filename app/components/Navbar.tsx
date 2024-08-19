@@ -23,18 +23,30 @@ export default function Component() {
 
         <ThemeSwitcher />
         </div>
+        <SheetTrigger asChild>
+
             <Link href="/" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
               Transactions
             </Link>
+        </SheetTrigger>
+        <SheetTrigger asChild>
+
             <Link href="/stats" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
               Stats
             </Link>
+        </SheetTrigger>
+        <SheetTrigger asChild>
+
             <Link href="/accounts" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
               Accounts
             </Link>
+        </SheetTrigger>
+        <SheetTrigger asChild>
+
             <Link href="/contact" className="flex w-full items-center py-2 text-lg font-semibold" prefetch={false}>
               Contact
             </Link>
+        </SheetTrigger>
          
           </div>
         </SheetContent>
