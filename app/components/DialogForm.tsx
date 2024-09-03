@@ -61,7 +61,7 @@ export function DialogForm() {
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline" className="fixed bottom-2 right-2 h-8 w-8 rounded-full text-xl lg:text-3xl lg:h-16 lg:w-16 bg-blue-600 text-white m-4">+</Button>
+        <Button variant="outline" className="fixed bottom-2 right-2 h-16 w-16 rounded-full text-xl lg:text-3xl lg:h-16 lg:w-16 bg-blue-600 text-white m-4">+</Button>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[425px]">
         <DialogHeader>

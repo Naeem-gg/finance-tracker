@@ -26,7 +26,10 @@ export default function RootLayout({
         </div> */}
         <Navbar />
         <Toaster />
+        <main className="m-4">
+
           {children}
+        </main>
           </Providers>
           </body>
     </html>
