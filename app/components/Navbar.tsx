@@ -1,6 +1,7 @@
-import { Sheet, SheetTrigger, SheetContent } from "@/components/ui/sheet"
 import { Button } from "@/components/ui/button"
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import Link from "next/link"
+import LoginLogout from "./LoginLogout"
 import { ThemeSwitcher } from "./ThemeSwitcher"
 
 export default function Component() {
@@ -89,6 +90,7 @@ export default function Component() {
 
         <ThemeSwitcher />
         </div>
+        <LoginLogout />
       </nav>
     </header>
   )
