@@ -1,6 +1,9 @@
 import { Button } from '@/components/ui/button'
 import React from 'react'
 import { DialogForm } from './components/DialogForm'
+import { Inter } from 'next/font/google';
+
+const inter = Inter({ subsets: ['latin'] });
 
 const page = () => {
   return (
